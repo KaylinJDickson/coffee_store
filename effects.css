@@ -1,0 +1,22 @@
+#photoShow {
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	border: solid 1px #000;
+    height:400px;
+    width:400px;
+	
+}
+#photoShow div {
+    position:absolute;
+    z-index: 0;
+}
+#photoShow div.previous {
+    z-index: 1;
+}
+#photoShow div.current {
+    z-index: 2;
+}
+
+
+

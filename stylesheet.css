@@ -1,0 +1,84 @@
+@charset "UTF-8";
+header, section, footer, aside, article, figure, figcaption {
+	display:block;
+  }
+
+  Body{
+	  Color: #666666;
+	  background-image:url(images/woodbackground.jpg);
+	  background-image:no-repeat;
+      Line-height: 1.4em;
+	  margin: 0px auto 0px auto;
+  }
+h1
+{ 
+   font-family: "Lucida Handwriting", Times, Serif;
+   font-size : 50px; 
+    Color: #00b1b0;
+
+}
+  
+   .wrapper {
+	   width: 940px;
+	   margin: 20px auto 20px auto;
+       color : #ffffff;
+       display : right;
+	   
+   }
+
+
+   header {
+       text-align: center;
+  }
+
+   nav a
+{
+  background-color : #a2d24a;
+  color : #ffffff;
+  padding: 5px 5px 5px 5px;
+  display : right;
+  font-size : 30px;
+  font-family: "Verdana", Times, serif;
+}  
+
+}
+
+aside 
+{
+   margin: 20px auto 20px auto;
+   padding: 5px 5px 5px 5px;
+    
+}
+hgroup 
+{
+  margin: 20px auto 20px auto;
+  padding: 10px 5px 10px 5px;
+}
+
+footer
+{
+  text-align: center;
+
+}
+
+#wrap input#buy
+{
+margin:10px;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.totalPrice
+{
+    padding:10px;
+    font-weight:bold;
+    background-color:#ff0;
+}
+
+.info
+{
+  font-weight : bold;
+    display : none; 
+}

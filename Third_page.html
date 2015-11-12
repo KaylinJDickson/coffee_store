@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.structure.css" />
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.11.4.custom/jquery-ui.theme.css" />
+      <link href="stylesheet.css" rel="stylesheet" type="text/css">
+      <link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.11.2.js"></script>
+	<script src="js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+      <script src="js/orderform.js"></script>
+	<script src="js/buy.js"></script>
+      <script src="js/home.js"></script>
+    <script src="js/main.js"></script>
+    <title>Coffee Time</title>
+  </head>
+  <body>
+       <header>
+          <img src="images/chaywaLogo.png" alt="logo" style="width:450px;height:160px">
+              <nav>
+                 <ul>
+                   <a href="Index.html" class="current">Home</a>
+                   <a href="Fourth_page.html">Contact</a>
+                 </ul>
+              </nav>
+    </br></br>
+          <h1>Buy Your Coffee Here</h1>
+          </br></br>
+    </br></br>
+              </header>    
+    </div>
+    <div class="wrapper">
+<div class="content">
+<div id="accordion">
+ <h4>Prices:</h4> 
+    <div class="table">
+		<table border=”1”>
+            <thead> <tr>
+              <th>Coffee</th>
+              <th>Price</th>
+              </tr>
+              </thead>
+            <tbody> <tr>
+              <td>Americano</td>
+              <td>R0</td>
+              </tr>
+              <tr>
+                <td>Latte</td>
+                <td>R3</td>
+                </tr>
+              <tr>
+                <td>Cappuccino</td>
+                <td>R6</td>
+                </tr>
+              <tr>
+                <td>Skinny Latte</td>
+                <td>R2</td>
+                </tr>
+              <tr>
+                <td>Skinny Cappuccino</td>
+                <td>R4</td>
+                </tr>
+              <tr>
+                <td>Single</td>
+                <td>R4</td>
+                </tr>
+                <tr>
+                <td>Double</td>
+                <td>R8</td>
+                </tr>
+                <tr>
+                <td>Tripple</td>
+                <td>R16</td>
+                </tr>
+                <tr>
+                <td>Bitter</td>
+                <td>R0</td>
+                </tr>
+                <tr>
+                <td>Sweet</td>
+                <td>R1</td>
+                </tr>
+                <tr>
+                <td>Very Sweet</td>
+                <td>R2</td>
+                </tr>
+                <tr>
+                <td>Cream: Wild</td>
+                <td>R3</td>
+                </tr>
+                <tr>
+                <td>Choc</td>
+                <td>R4</td>
+                </tr>
+                <tr>
+                <td>Caramel</td>
+                <td>R4</td>
+                </tr>
+                <tr>
+                <td>Irish</td>
+                <td>R12</td>
+                </tr>
+              </tbody>
+            </table>
+         </div>
+        <h4>Form</h4> 
+        <div class="table">
+           <form id="Order" method="post" enctype="text/plain" action="mailto:chaywa@gmail.com">
+          <label for="name">Your Name</label>
+		<input type="text" id="name" name="name" /></br></br>
+<label for='address'>Address to confirm order</label>
+                <input type="text" id="address" name='address' /></br></br>
+		<label for="phonenumber">Your Phone Number</label>
+		<input type="text" id="number" name="number" /></br></br>
+		<label for="comment">Special requirements</label>
+		<textarea id="comment" name="comment"></textarea>
+</form></div>
+
+             <h4>Order form</h4> 
+
+         <div class="formback">
+			<h3>You may place your order here</h3>
+					
+					<p>Select what coffee you would like below</p>
+                    <div class="CoffeeOrder">
+					<form id="myForm">
+							<label for="select">Size:</label>
+								<select id="size" name="cupsize">
+								  <option> </option>
+								  <option>Short</option>
+								  <option>Tall</option>
+								  <option>Grande</option>
+								</select><br><br> 
+							  
+							<label for="select">Shots Espresso</label>
+								<select id="espresso" name="shots">
+								  <option> </option>
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								</select><br><br>			  
+						   
+							<label for="select">Type of Milk:</label>
+								<select id="type" name="type">
+								  <option> </option>
+								  <option>Full Cream</option>
+								  <option>Low Fat</option>
+								</select><br><br>
+							  
+							<label for="select">Parts of Milk:</label>
+								<select id="parts" name="parts">
+								  <option> </option>
+								  <option>0</option>
+								  <option>1</option>
+								  <option>2</option>
+								</select><br><br>					
+
+							<label for="select">Sugar</label>
+								<select id="sugar" name="spoons">
+								  <option> </option>
+								  <option>0</option>
+								  <option>1</option>
+								  <option>2</option>
+								</select><br><br>										  
+
+							<label for="select">Add to your coffee</label>
+								<select id="extra" name="addon">
+									<option> </option>
+									<option>Cream</option>
+									<option>Chocolate Syrup</option>
+									<option>Caramel Syrup</option>
+									<option>Whiskey</option>
+								</select><br><br>		
+					
+                  
+						 
+				<table class="order">
+					<thead>
+						<tr>
+							<th>Order:</th>
+							<th>Total Price:</th>
+						</tr>
+					</thead>					
+					<tbody id="tablebody">					
+					</tbody>						
+				</table>
+             </form></div><br>	<br>	
+             
+             <button id="buynow">Buy Now</button>
+              <button id="clear">Reset</button>      
+				
+			<h3> Thank you! Enjoy Your Coffee</h3>		</div>
+		</div>
+		</div>
+</div>
+	</body>
+</html>
+
